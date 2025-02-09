@@ -9,6 +9,7 @@ private:
 public:
 	void displayInformation();	// Üye fonksiyonu (member function)
 	Student(const string name, const string surname, const string ID);
+	~Student();
 	string getStudentName(void);
 	string getStudentSurname(void);
 	string getStudentID(void);
@@ -53,4 +54,9 @@ void Student::setStudentSurname(const string surname)
 void Student::setStudentID(const string id)
 {
 	this->stundentID = id;
+}
+
+Student::~Student()
+{
+	cout << "Nesne yok edildi ! " << endl;
 }
