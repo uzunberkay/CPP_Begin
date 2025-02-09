@@ -9,6 +9,7 @@ private:
 public:
 	void displayInformation();	// Üye fonksiyonu (member function)
 	Student(const string name, const string surname, const string ID);
+	Student(const Student& oth);
 	~Student();
 	string getStudentName(void);
 	string getStudentSurname(void);
@@ -25,7 +26,7 @@ void Student::displayInformation()
 
 Student::Student(const string name, const string surname, const string ID)
 {
-	
+	cout << "Constructor" << endl;
 	studentName = name;
 	studentSurname = surname;
 	stundentID = ID;
@@ -59,4 +60,12 @@ void Student::setStudentID(const string id)
 Student::~Student()
 {
 	cout << "Nesne yok edildi ! " << endl;
+} 
+
+Student::Student(const Student& oth)
+{
+	cout << "Copy constructor" << endl;
+	this->studentName = oth.studentName;
+	this->studentSurname = oth.studentSurname;
+	this->stundentID = oth.stundentID;
 }
