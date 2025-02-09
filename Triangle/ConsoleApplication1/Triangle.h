@@ -83,6 +83,74 @@ bool Triangle::isTriangle(float sideA, float sideB, float sideC)
 	return true;
 }
 
+
+float Triangle::getSideA(void) const {
+
+
+	return this->sideA;
+}
+
+float Triangle::getSideB(void)const {
+	return this->sideB;
+}
+
+float Triangle::getSideC(void) const
+{
+	return this->sideC;
+}
+
+
+void Triangle::setValue(float a, float b, float c)
+{
+	while (!isTriangle(a, b, c))
+	{
+		cout << "Please enter the sides (a-b-c):" << endl;
+		cin >> a >> b >> c;
+	}
+
+	this->sideA = a;
+	this->sideB = b;
+	this->sideC = c;
+}
+
+bool Triangle::isEquilateral()
+{
+	return this->sideA == this->sideB && this->sideB == this->sideC;
+}
+
+bool Triangle::isIsosceles()
+{
+	if (isEquilateral())
+		return true;		
+
+	return this->sideA == this->sideB || this->sideA == this->sideC || this->sideB == this->sideC;
+}
+
+bool Triangle::isScalene()
+{
+	return !isEquilateral();
+}
+
+void Triangle::trinagleType()
+{
+	if (isEquilateral())
+		cout << "Equilateral Triangle " << endl;
+	else if (isIsosceles())
+		cout << "Isosceles Triangle " << endl;
+	else
+		cout << "Scalene Triangle " << endl;
+}
+
+float Triangle::calculateArea()
+{
+	float area;
+	if (isEquilateral()) {
+		return  (pow(this->sideA, 2) * sqrt(3) / 4);
+	}
+	float s = (this->sideA + this->sideB + this->sideC) / 2;
+	return sqrt(s * (s - this->sideA) * (s - this->sideB) * (s - this->sideC));
+}
+
 #endif // !TRIANGLE_H
 
 

@@ -1,2 +1,8 @@
 ﻿  example.cpp
+C:\Users\W10\Desktop\CPP\Triangle\ConsoleApplication1\Triangle.h(148,11): warning C4244: 'return': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  ('example.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\W10\Desktop\CPP\Triangle\ConsoleApplication1\Triangle.h(146,8): warning C4101: 'area': yerel değişken başvurusu kaldırıldı
+  ('example.cpp' kaynak dosyası derleniyor)
+  
   ConsoleApplication1.vcxproj -> C:\Users\W10\Desktop\CPP\Triangle\x64\Debug\ConsoleApplication1.exe
