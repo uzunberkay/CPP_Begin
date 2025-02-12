@@ -1,0 +1,5 @@
+﻿  Date.cpp
+C:\Users\W10\Desktop\CPP\Date\Date\Date.h(107,18): warning C4267: 'return': 'size_t' - 'long' dönüşümü; veri kaybı olabilir
+  ('Date.cpp' kaynak dosyası derleniyor)
+  
+  Date.vcxproj -> C:\Users\W10\Desktop\CPP\Date\x64\Debug\Date.exe
