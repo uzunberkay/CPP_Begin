@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\W10\\Desktop\\CPP\\SmartHomeDevice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7F555E-22A3-4022-8FFF-08C285640BEA}|SmartHomeDevice\\SmartHomeDevice.vcxproj|C:\\Users\\W10\\Desktop\\CPP\\SmartHomeDevice\\SmartHomeDevice\\SmartHomeDevice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD7F555E-22A3-4022-8FFF-08C285640BEA}|SmartHomeDevice\\SmartHomeDevice.vcxproj|solutionrelative:SmartHomeDevice\\SmartHomeDevice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD7F555E-22A3-4022-8FFF-08C285640BEA}|SmartHomeDevice\\SmartHomeDevice.vcxproj|C:\\Users\\W10\\Desktop\\CPP\\SmartHomeDevice\\SmartHomeDevice\\SmartHomeDevice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BD7F555E-22A3-4022-8FFF-08C285640BEA}|SmartHomeDevice\\SmartHomeDevice.vcxproj|solutionrelative:SmartHomeDevice\\SmartHomeDevice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SmartHomeDevice.h",
+              "DocumentMoniker": "C:\\Users\\W10\\Desktop\\CPP\\SmartHomeDevice\\SmartHomeDevice\\SmartHomeDevice.h",
+              "RelativeDocumentMoniker": "SmartHomeDevice\\SmartHomeDevice.h",
+              "ToolTip": "C:\\Users\\W10\\Desktop\\CPP\\SmartHomeDevice\\SmartHomeDevice\\SmartHomeDevice.h",
+              "RelativeToolTip": "SmartHomeDevice\\SmartHomeDevice.h",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAkwBEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-15T19:14:41.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SmartHomeDevice.cpp",
+              "DocumentMoniker": "C:\\Users\\W10\\Desktop\\CPP\\SmartHomeDevice\\SmartHomeDevice\\SmartHomeDevice.cpp",
+              "RelativeDocumentMoniker": "SmartHomeDevice\\SmartHomeDevice.cpp",
+              "ToolTip": "C:\\Users\\W10\\Desktop\\CPP\\SmartHomeDevice\\SmartHomeDevice\\SmartHomeDevice.cpp",
+              "RelativeToolTip": "SmartHomeDevice\\SmartHomeDevice.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-15T19:14:26.047Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

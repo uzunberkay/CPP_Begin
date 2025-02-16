@@ -1,0 +1,3 @@
+﻿  SmartHomeDevice.cpp
+C:\Users\W10\Desktop\CPP\SmartHomeDevice\SmartHomeDevice\SmartHomeDevice.cpp(15,23): warning C4305: 'bağımsız değişken': 'double' iken 'float' olarak kesildi
+  SmartHomeDevice.vcxproj -> C:\Users\W10\Desktop\CPP\SmartHomeDevice\x64\Debug\SmartHomeDevice.exe

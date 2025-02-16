@@ -64,7 +64,7 @@ void bankAccount::setPersonName(string name)
 		cout << "Lutfen isim giriniz : ";
 		cin >> name;
 	}
-	this->personSurname = name;
+	this->personName = name;
 
 }
 
