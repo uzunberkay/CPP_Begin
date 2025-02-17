@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\W10\\Desktop\\CPP\\Matris\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87EEC6E0-86FD-4CED-B8F1-BB88AD13804A}|Matris\\Matris.vcxproj|C:\\Users\\W10\\Desktop\\CPP\\Matris\\Matris\\Matris.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{87EEC6E0-86FD-4CED-B8F1-BB88AD13804A}|Matris\\Matris.vcxproj|solutionrelative:Matris\\Matris.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87EEC6E0-86FD-4CED-B8F1-BB88AD13804A}|Matris\\Matris.vcxproj|C:\\Users\\W10\\Desktop\\CPP\\Matris\\Matris\\Matris.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{87EEC6E0-86FD-4CED-B8F1-BB88AD13804A}|Matris\\Matris.vcxproj|solutionrelative:Matris\\Matris.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Matris.h",
+              "DocumentMoniker": "C:\\Users\\W10\\Desktop\\CPP\\Matris\\Matris\\Matris.h",
+              "RelativeDocumentMoniker": "Matris\\Matris.h",
+              "ToolTip": "C:\\Users\\W10\\Desktop\\CPP\\Matris\\Matris\\Matris.h",
+              "RelativeToolTip": "Matris\\Matris.h",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAUwIEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-17T11:41:06.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Matris.cpp",
+              "DocumentMoniker": "C:\\Users\\W10\\Desktop\\CPP\\Matris\\Matris\\Matris.cpp",
+              "RelativeDocumentMoniker": "Matris\\Matris.cpp",
+              "ToolTip": "C:\\Users\\W10\\Desktop\\CPP\\Matris\\Matris\\Matris.cpp",
+              "RelativeToolTip": "Matris\\Matris.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-17T11:40:48.743Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
