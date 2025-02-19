@@ -5,11 +5,9 @@
 
 using namespace std;
 
-
-
 class baseClass {
 
-private:
+protected:
 	int x;
 
 public:
@@ -22,7 +20,19 @@ public:
 	{
 		cout << "X : " << this->x << endl;
 	}
-
+	baseClass(int mainX = 0)
+	{
+		cout << "Base class constructor worked" << endl;
+	}
+	~baseClass()
+	{
+		cout << "Base class deconstructor worked" << endl;
+	}
+	baseClass(const baseClass& oth)
+	{
+		this->x = oth.x;
+		cout << "Base class copy constructor worked." << endl;	
+	}
 };
 
 class derivedClass :public baseClass {
@@ -38,5 +48,23 @@ public:
 	void printY()
 	{
 		cout << "Y : " << this->y << endl;
+	}
+
+	derivedClass(int mainX = 0, int mainY = 0)
+	{
+		this->x = mainX;
+		this->y = mainY;
+
+		cout << "Derived class constructor worked." << endl;
+	}
+	~derivedClass()
+	{
+		cout << "Derived class destructor worked." << endl;
+	}
+	derivedClass(const derivedClass& oth)
+	{
+		this->x = oth.x;
+		this->y = oth.y;
+		cout << "Derived class copy constructor worked." << endl;
 	}
 };
